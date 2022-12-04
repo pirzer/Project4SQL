@@ -11,14 +11,3 @@
   {"TrackId":435,"Name":"One Vision","AlbumId":36,"MediaTypeId":1,"GenreId":1,"Composer":"Queen","Milliseconds":242599,"Bytes":7936928,"UnitPrice":0.99}]
 (1 row)
 
-                               List of databases
-   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
------------+--------+----------+-------------+-------------+-------------------
- chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
- postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
- template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
-           |        |          |             |             | gitpod=CTc/gitpod
- template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
-           |        |          |             |             | gitpod=CTc/gitpod
-(4 rows)
-

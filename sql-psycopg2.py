@@ -17,7 +17,7 @@ cursor.execute('SELECT * FROM "Artist"')
 # cursor.execute('SELECT * FROM "Artist" WHERE "Name" = %s', ["Queen"])
 
 # Query 4 - select only by "ArtistId" #51 from the "Artist" table
-cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
+# cursor.execute('SELECT * FROM "Artist" WHERE "ArtistId" = %s', [51])
 
 # Query 5 - select only the albums with "ArtistId" #51 on the "Album" table
 # cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [51])
