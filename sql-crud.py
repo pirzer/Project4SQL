@@ -95,7 +95,7 @@ pedro_rojas = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
-# session.add(pedro_rojas)
+session.add(pedro_rojas)
 
 # commit our session to the database
 session.commit()
