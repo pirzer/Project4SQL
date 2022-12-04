@@ -80,6 +80,14 @@ tim_berners_lee = Programmer(
     famous_for="World Wide Web"
 )
 
+pedro_rojas = Programmer(
+    first_name="Pedro",
+    last_name="Rojas-Zambrano",
+    gender="Masculino",
+    nationality="VZLA",
+    famous_for="Baseball"
+)
+
 # add each instance of our programmers to our session
 # session.add(ada_lovelace)
 # session.add(alan_turing)
@@ -87,9 +95,10 @@ tim_berners_lee = Programmer(
 # session.add(margaret_hamilton)
 # session.add(bill_gates)
 # session.add(tim_berners_lee)
+# session.add(pedro_rojas)
 
 # commit our session to the database
-# session.commit()
+session.commit()
 
 
 # query the database to find all Programmers
